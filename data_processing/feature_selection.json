@@ -1,0 +1,433 @@
+{
+  "target": "temperature_2m",
+  "horizon_hours": 1,
+  "cv_splits": 5,
+  "holdout_fraction": 0.2,
+  "random_state": 42,
+  "mae_tolerance_pct": 1.0,
+  "holdout_start": "2022-10-20 04:00:00",
+  "selection_train_label_end": "2022-10-20 03:00:00",
+  "raw_sha256": "c09313d2e525b098edbc0814e8a8550a09f34f5e10355c7fb6c0f9816f5e03dc",
+  "selected_features": [
+    "temperature_2m",
+    "apparent_temperature",
+    "et0_fao_evapotranspiration",
+    "vapour_pressure_deficit",
+    "soil_temperature_0_to_7cm",
+    "soil_temperature_7_to_28cm",
+    "dew_point_2m",
+    "is_day",
+    "cloud_cover"
+  ],
+  "feature_scores": [
+    {
+      "feature": "temperature_2m",
+      "importance_mean": 0.9627787104303855,
+      "importance_std": 0.001703876705693011,
+      "rank": 1,
+      "selected": true
+    },
+    {
+      "feature": "apparent_temperature",
+      "importance_mean": 0.019149244398860156,
+      "importance_std": 0.0012291599365610517,
+      "rank": 2,
+      "selected": true
+    },
+    {
+      "feature": "et0_fao_evapotranspiration",
+      "importance_mean": 0.005232747698214956,
+      "importance_std": 0.0001400548218620812,
+      "rank": 3,
+      "selected": true
+    },
+    {
+      "feature": "vapour_pressure_deficit",
+      "importance_mean": 0.0014205353268111557,
+      "importance_std": 6.299279794842974e-05,
+      "rank": 4,
+      "selected": true
+    },
+    {
+      "feature": "soil_temperature_0_to_7cm",
+      "importance_mean": 0.0014012961495739396,
+      "importance_std": 0.00023274703510579392,
+      "rank": 5,
+      "selected": true
+    },
+    {
+      "feature": "soil_temperature_7_to_28cm",
+      "importance_mean": 0.001145403867223537,
+      "importance_std": 7.996511557676785e-05,
+      "rank": 6,
+      "selected": true
+    },
+    {
+      "feature": "dew_point_2m",
+      "importance_mean": 0.0010630669812231655,
+      "importance_std": 4.540583433414233e-05,
+      "rank": 7,
+      "selected": true
+    },
+    {
+      "feature": "is_day",
+      "importance_mean": 0.0009831357144603442,
+      "importance_std": 0.00016660288033721292,
+      "rank": 8,
+      "selected": true
+    },
+    {
+      "feature": "cloud_cover",
+      "importance_mean": 0.0008773082289141646,
+      "importance_std": 3.039805456907908e-05,
+      "rank": 9,
+      "selected": true
+    },
+    {
+      "feature": "soil_moisture_0_to_7cm",
+      "importance_mean": 0.0006931528502853131,
+      "importance_std": 6.671271975111344e-05,
+      "rank": 10,
+      "selected": false
+    },
+    {
+      "feature": "relative_humidity_2m",
+      "importance_mean": 0.0004828068817067689,
+      "importance_std": 9.465570737140615e-05,
+      "rank": 11,
+      "selected": false
+    },
+    {
+      "feature": "soil_temperature_28_to_100cm",
+      "importance_mean": 0.00047019993137443534,
+      "importance_std": 4.4305758050046485e-05,
+      "rank": 12,
+      "selected": false
+    },
+    {
+      "feature": "wind_direction_100m",
+      "importance_mean": 0.00046809933339801615,
+      "importance_std": 4.019576007745463e-05,
+      "rank": 13,
+      "selected": false
+    },
+    {
+      "feature": "soil_moisture_100_to_255cm",
+      "importance_mean": 0.00046033444966397057,
+      "importance_std": 8.24252309911118e-05,
+      "rank": 14,
+      "selected": false
+    },
+    {
+      "feature": "wind_direction_10m",
+      "importance_mean": 0.00041655589116126575,
+      "importance_std": 5.9017348864520586e-05,
+      "rank": 15,
+      "selected": false
+    },
+    {
+      "feature": "wind_speed_100m",
+      "importance_mean": 0.00035064903924591866,
+      "importance_std": 9.162109361779769e-05,
+      "rank": 16,
+      "selected": false
+    },
+    {
+      "feature": "soil_temperature_100_to_255cm",
+      "importance_mean": 0.0003446260029039042,
+      "importance_std": 6.0752316547847596e-05,
+      "rank": 17,
+      "selected": false
+    },
+    {
+      "feature": "wind_gusts_10m",
+      "importance_mean": 0.000325852159795374,
+      "importance_std": 7.089379405136681e-05,
+      "rank": 18,
+      "selected": false
+    },
+    {
+      "feature": "wind_speed_10m",
+      "importance_mean": 0.00029020765225082964,
+      "importance_std": 6.029241499586888e-05,
+      "rank": 19,
+      "selected": false
+    },
+    {
+      "feature": "soil_moisture_28_to_100cm",
+      "importance_mean": 0.00026968137655425704,
+      "importance_std": 6.356471782443732e-05,
+      "rank": 20,
+      "selected": false
+    },
+    {
+      "feature": "surface_pressure",
+      "importance_mean": 0.0002550132400403001,
+      "importance_std": 4.471245809108593e-05,
+      "rank": 21,
+      "selected": false
+    },
+    {
+      "feature": "pressure_msl",
+      "importance_mean": 0.00025332153029936175,
+      "importance_std": 3.950837351363236e-05,
+      "rank": 22,
+      "selected": false
+    },
+    {
+      "feature": "soil_moisture_7_to_28cm",
+      "importance_mean": 0.00023718150514079618,
+      "importance_std": 6.429399982836003e-05,
+      "rank": 23,
+      "selected": false
+    },
+    {
+      "feature": "rain",
+      "importance_mean": 0.0002309478888044756,
+      "importance_std": 3.768000874934217e-05,
+      "rank": 24,
+      "selected": false
+    },
+    {
+      "feature": "precipitation",
+      "importance_mean": 0.00022847779083837454,
+      "importance_std": 3.712959886763546e-05,
+      "rank": 25,
+      "selected": false
+    },
+    {
+      "feature": "weather_code",
+      "importance_mean": 0.00017144368086945038,
+      "importance_std": 3.0309157006319662e-05,
+      "rank": 26,
+      "selected": false
+    }
+  ],
+  "subset_cv_scores": [
+    {
+      "k": 11,
+      "MAE_mean": 0.4704341658576309,
+      "MAE_std": 0.040925215375168945,
+      "RMSE_mean": 0.6955097955717667,
+      "RMSE_std": 0.07130321392534641,
+      "R2_mean": 0.9849105165453524
+    },
+    {
+      "k": 20,
+      "MAE_mean": 0.47060308108067506,
+      "MAE_std": 0.043872126376967635,
+      "RMSE_mean": 0.6934548802433713,
+      "RMSE_std": 0.07533020086088074,
+      "R2_mean": 0.98499457748038
+    },
+    {
+      "k": 14,
+      "MAE_mean": 0.47070198020079246,
+      "MAE_std": 0.04144426870853936,
+      "RMSE_mean": 0.6942517680158913,
+      "RMSE_std": 0.07103018230547198,
+      "R2_mean": 0.9849652301304974
+    },
+    {
+      "k": 18,
+      "MAE_mean": 0.47072277039659516,
+      "MAE_std": 0.04331875619701015,
+      "RMSE_mean": 0.69398467778241,
+      "RMSE_std": 0.07451391021110122,
+      "R2_mean": 0.9849704245209653
+    },
+    {
+      "k": 26,
+      "MAE_mean": 0.47072665582801926,
+      "MAE_std": 0.04221172886573656,
+      "RMSE_mean": 0.6930544560854697,
+      "RMSE_std": 0.07286925171183688,
+      "R2_mean": 0.985013987254483
+    },
+    {
+      "k": 24,
+      "MAE_mean": 0.47080217645953837,
+      "MAE_std": 0.04240024130539576,
+      "RMSE_mean": 0.6933140440153471,
+      "RMSE_std": 0.07320643721944649,
+      "R2_mean": 0.9850028820629252
+    },
+    {
+      "k": 25,
+      "MAE_mean": 0.47086560628472984,
+      "MAE_std": 0.04212037463619647,
+      "RMSE_mean": 0.6934810651439067,
+      "RMSE_std": 0.07283392059304736,
+      "R2_mean": 0.9849956452488474
+    },
+    {
+      "k": 17,
+      "MAE_mean": 0.4708684458649456,
+      "MAE_std": 0.04199943037265317,
+      "RMSE_mean": 0.6943505412637263,
+      "RMSE_std": 0.07267373506051113,
+      "R2_mean": 0.9849554480605344
+    },
+    {
+      "k": 15,
+      "MAE_mean": 0.47088034492885944,
+      "MAE_std": 0.04156854818579096,
+      "RMSE_mean": 0.6944145025852141,
+      "RMSE_std": 0.07087407127333334,
+      "R2_mean": 0.9849579744265992
+    },
+    {
+      "k": 19,
+      "MAE_mean": 0.4709195779350324,
+      "MAE_std": 0.04341571663899874,
+      "RMSE_mean": 0.6943972362262638,
+      "RMSE_std": 0.07466922611556917,
+      "R2_mean": 0.9849527983604591
+    },
+    {
+      "k": 16,
+      "MAE_mean": 0.47092988698450455,
+      "MAE_std": 0.04137338304136797,
+      "RMSE_mean": 0.6945868781817113,
+      "RMSE_std": 0.07133639896396728,
+      "R2_mean": 0.9849493913489263
+    },
+    {
+      "k": 13,
+      "MAE_mean": 0.4711963638923143,
+      "MAE_std": 0.041361173318518296,
+      "RMSE_mean": 0.6957559003678392,
+      "RMSE_std": 0.07090226365597872,
+      "R2_mean": 0.9848979989287077
+    },
+    {
+      "k": 21,
+      "MAE_mean": 0.471397522264549,
+      "MAE_std": 0.04413114469589796,
+      "RMSE_mean": 0.6942193025778198,
+      "RMSE_std": 0.07550376584620205,
+      "R2_mean": 0.9849613591698715
+    },
+    {
+      "k": 22,
+      "MAE_mean": 0.4716155324254513,
+      "MAE_std": 0.043943532636731134,
+      "RMSE_mean": 0.6946211590867477,
+      "RMSE_std": 0.0753895232455948,
+      "R2_mean": 0.9849434948483451
+    },
+    {
+      "k": 12,
+      "MAE_mean": 0.47177508188377804,
+      "MAE_std": 0.04214289065990187,
+      "RMSE_mean": 0.6970501569250621,
+      "RMSE_std": 0.07223832826526425,
+      "R2_mean": 0.9848399836521791
+    },
+    {
+      "k": 23,
+      "MAE_mean": 0.4719680868037983,
+      "MAE_std": 0.04400424558989094,
+      "RMSE_mean": 0.6950509561649071,
+      "RMSE_std": 0.07565076589309494,
+      "R2_mean": 0.9849251539940107
+    },
+    {
+      "k": 10,
+      "MAE_mean": 0.47251620806859734,
+      "MAE_std": 0.039020642251999325,
+      "RMSE_mean": 0.6995995293936687,
+      "RMSE_std": 0.06742529862387327,
+      "R2_mean": 0.9847389467680217
+    },
+    {
+      "k": 9,
+      "MAE_mean": 0.4747603192615548,
+      "MAE_std": 0.038913556553033544,
+      "RMSE_mean": 0.7036653399874565,
+      "RMSE_std": 0.06703208780180148,
+      "R2_mean": 0.9845614720401518
+    },
+    {
+      "k": 8,
+      "MAE_mean": 0.48184302694146075,
+      "MAE_std": 0.03695176084325301,
+      "RMSE_mean": 0.7158811781927472,
+      "RMSE_std": 0.06282599898249534,
+      "R2_mean": 0.984026611181088
+    },
+    {
+      "k": 7,
+      "MAE_mean": 0.48317896019402395,
+      "MAE_std": 0.038800199423678364,
+      "RMSE_mean": 0.7192692516210903,
+      "RMSE_std": 0.06689489486107587,
+      "R2_mean": 0.9838686535978061
+    },
+    {
+      "k": 6,
+      "MAE_mean": 0.4897542573995032,
+      "MAE_std": 0.0324715563102614,
+      "RMSE_mean": 0.7328490480573893,
+      "RMSE_std": 0.053634710104006424,
+      "R2_mean": 0.9832667254827522
+    },
+    {
+      "k": 5,
+      "MAE_mean": 0.5019552355078228,
+      "MAE_std": 0.03707547762444464,
+      "RMSE_mean": 0.7581466256561503,
+      "RMSE_std": 0.06303457089240079,
+      "R2_mean": 0.9820917705518137
+    },
+    {
+      "k": 4,
+      "MAE_mean": 0.5106286062446899,
+      "MAE_std": 0.04079962760152399,
+      "RMSE_mean": 0.7725597503477719,
+      "RMSE_std": 0.06893104001745604,
+      "R2_mean": 0.9813944146791884
+    },
+    {
+      "k": 3,
+      "MAE_mean": 0.5217011480940078,
+      "MAE_std": 0.03849452023028861,
+      "RMSE_mean": 0.7918065859121829,
+      "RMSE_std": 0.06796642213155304,
+      "R2_mean": 0.9804638727227053
+    },
+    {
+      "k": 1,
+      "MAE_mean": 0.5906664662414108,
+      "MAE_std": 0.0230722833401036,
+      "RMSE_mean": 0.9624753325886551,
+      "RMSE_std": 0.06068528287966373,
+      "R2_mean": 0.9711377920471881
+    },
+    {
+      "k": 2,
+      "MAE_mean": 0.631406099894029,
+      "MAE_std": 0.03401627624892065,
+      "RMSE_mean": 0.9653003087958879,
+      "RMSE_std": 0.06593415372945759,
+      "R2_mean": 0.970967550427282
+    }
+  ],
+  "holdout_scores": [
+    {
+      "feature_set": "selected",
+      "k": 9,
+      "MAE": 0.44433772766391827,
+      "RMSE": 0.65062658706552,
+      "R2": 0.9864624214311672
+    },
+    {
+      "feature_set": "all_candidates",
+      "k": 26,
+      "MAE": 0.44296327654614936,
+      "RMSE": 0.6386937207697931,
+      "R2": 0.9869544416790385
+    }
+  ],
+  "processed_sha256": "e584915852caec30e47eb279097e4dd2214da94780ed78697bbfe118d4102a0b"
+}
