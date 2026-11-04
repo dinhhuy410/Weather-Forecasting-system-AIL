@@ -1,5 +1,3 @@
-"""Download the external test period from the same ERA5 archive as training."""
-
 from pathlib import Path
 import sys
 

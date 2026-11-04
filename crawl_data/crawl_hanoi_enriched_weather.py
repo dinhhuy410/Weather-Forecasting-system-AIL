@@ -1,5 +1,3 @@
-"""Download complete ERA5 history; only replace the CSV after validation."""
-
 from pathlib import Path
 import sys
 import time
